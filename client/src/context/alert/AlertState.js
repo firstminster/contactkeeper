@@ -28,7 +28,7 @@ const AlertState = props => {
             value={{
                 alerts: state,
                 setAlert
-
+                
             }}>
 
             {props.children}

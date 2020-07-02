@@ -19,7 +19,8 @@ const Navbar = ({ title, icon}) => {
 
     const authLinks = (
         <Fragment>
-            <li><strong>Hello,</strong> { user && user.name } </li>
+            <li>Hello, { user && user.name } </li> 
+            
             <li>
                 <a onClick={onLogout} href="#!"> 
                     <i className="fas fa-sign-out-alt"></i> <span className="hide-sm" >Logout</span>
@@ -63,4 +64,4 @@ Navbar.defaultProps = {
     icon: 'fas fa-id-card-alt'
 };
 
-export default Navbar
+export default Navbar;

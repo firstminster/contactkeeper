@@ -16,7 +16,7 @@ const ContactForm = () => {
                 type: 'personal'
             });
         }
-    }, [contactContext, current]);
+    }, [current]);
 
 
     const [contact, setContact] = useState({
@@ -76,8 +76,7 @@ const ContactForm = () => {
                     name="type" 
                     value="personal" 
                     checked={type === 'personal'}
-                    onChange={onChange} />{' '} 
-                Personal{' '}
+                    onChange={onChange} />{' '} Personal {' '}
                 <input 
                     type="radio" 
                     name="type" 

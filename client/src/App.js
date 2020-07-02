@@ -18,7 +18,7 @@ import './App.css';
 // @todo - load token into global headers
 if(localStorage.token) {
   setAuthToken(localStorage.token);
-}
+};
 
 const App = () => {
   return (
